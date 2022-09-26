@@ -1,0 +1,48 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.main .info{
+    text-align: center;
+}
+.main h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px #bd8334;
+}
+.main .info .amenities{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+.main .info .amenities img{
+    width: 500px;
+    height: 400px;
+    box-shadow:30px 20px #bd8334;
+}
+.main .info .amenities ul{
+   padding: 100px;
+
+}
+.main .info .amenities li{
+    padding: 10px;
+    font-size: 1.2rem;
+    word-spacing: 10px;
+    font-weight: 200;
+    text-align: left;
+}
+.info .button{
+    width: 50%;
+    height: 50px;
+    background-color: #bd8334;
+    border: none;
+    color: white;
+}
+.info .button:hover{
+    background-color: white;
+    border:1px solid #bd8334;
+    color: #bd8334;
+}
+
+
+
