@@ -39,7 +39,8 @@ e.preventDefault();
 
   
  })
- console.log('click')
+
+console.log('click')
 setName('');
 setSurname("");
 setPeople("");
@@ -53,20 +54,13 @@ const selectionChangeHandler = (event) => {
 setSelected(event.target.value)
 };
 
-
-
-
-
-
-
-
     return(
         <div>
-              <input type="text"className="txt" placeholder="your name"value={name}
+        <input type="text"className="txt" placeholder="Enter your name"value={name}
          onChange={e=>setName(e.target.value)} /><br></br>
-         <input type="text" className="txt" placeholder="your surname" value={surname}
+         <input type="text" className="txt" placeholder="Enter your surname" value={surname}
          onChange={e=>setSurname(e.target.value)}/><br></br>
-                <select defaultValue="" value={RoomType}
+         <select defaultValue="" value={RoomType}
          onChange={e=>setType(e.target.value)}>
                 <option hidden value="">Room Type</option>
                 <option>suit</option>

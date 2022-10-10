@@ -1,25 +1,24 @@
 import React from "react";
 import Top from "./top";
 import "../css/home.css"
-import { Zoom } from "react-slideshow-image";
- import "react-slideshow-image/dist/styles.css";
+// import { Zoom } from "react-slideshow-image";
+//  import "react-slideshow-image/dist/styles.css";
  import resturant from "../assets/resturant.png"
-
 import outside from "../assets/outside.jpg";
-import logo from "../assets/logo.png";
+// import logo from "../assets/logo.png";
 import reception from "../assets/reception.jpg";
 import { useNavigate } from "react-router-dom";
 
-const images = [outside, logo, reception];
+const images = [outside, reception];
 
-const zoomOutProperties = {
-    duration: 2000,
-    transitionDuration: 2000,
-    infinite: true,
-    indicators: true,
-    scale: 0.7,
-    arrows: true
-  };
+// const zoomOutProperties = {
+//     duration: 2000,
+//     transitionDuration: 2000,
+//     infinite: true,
+//     indicators: true,
+//     scale: 0.7,
+//     arrows: true
+//   };
 
 function Home(){
 
@@ -29,7 +28,6 @@ function Home(){
         history('../view');
     }
    
-
     return(
         <div className="main">
            <Top/>
@@ -37,31 +35,22 @@ function Home(){
                 <div className="hero containe slide-container">
 
                 
-                    <Zoom {...zoomOutProperties}>
+                    {/* <Zoom {...zoomOutProperties}>
                         {images.map((each, index) => (
                         <img key={index} style={{ width: "100%" ,height:"60vh",padding:"0"}} src={each} />
                         ))}
-                    </Zoom>
-                
-
-
-                    {/* <div className="text">
-                        <h1>Sleep like <span></span></h1>
-                        <h1>The Queen or King<span></span></h1>
-                        <h1>You are<span></span></h1>
+        
+                    // {/* <div className="text">
+                    //     <h1>Sleep like <span></span></h1>
+                    //     <h1>The Queen or King<span></span></h1>
+                    //     <h1>You are<span></span></h1>
                         
-                    </div> */}
-
+                    // </div> */} 
                 </div>
-                
-
             </div>
 
-
-              
-
             <div className="hotel-info">
-                <h1 className="title">Welcome to <span className="span">Sleep-In Palace</span> Hotel</h1>
+                <h1 className="title">Welcome to <span className="span">Winnie M</span> Hotel</h1>
                 <div className="content">
                     <div className="left">
                         <p><button>view</button>ex ea commodo consequat. Duis aute irure 
@@ -90,7 +79,7 @@ function Home(){
                  <div className="offers">
                     <div className="offer">
                         <img src={resturant} className="icons"/>
-                        <h3>Resturants</h3>
+                        <h3>Rooms</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
                             elit, sed do eiusmod tempor incididunt ut labore 
                             et dolore magna aliqua.</p>
@@ -114,7 +103,7 @@ function Home(){
 
                     <div className="offer">
                         <img src={resturant} className="icons"/>
-                        <h3>Resturants</h3>
+                        <h3>Rooms</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
                             elit, sed do eiusmod tempor incididunt ut labore 
                             et dolore magna aliqua.</p>

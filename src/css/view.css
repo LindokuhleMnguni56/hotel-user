@@ -7,7 +7,7 @@
 }
 .main h1 {
     font-size: 3rem;
-    text-shadow: 2px 2px 4px #bd8334;
+    text-shadow: 2px 2px 4px #cccac8;
 }
 .main .info .amenities{
     display: flex;
@@ -18,7 +18,7 @@
 .main .info .amenities img{
     width: 500px;
     height: 400px;
-    box-shadow:30px 20px #bd8334;
+    box-shadow:30px 20px #969695;
 }
 .main .info .amenities ul{
    padding: 100px;
@@ -34,14 +34,14 @@
 .info .button{
     width: 50%;
     height: 50px;
-    background-color: #bd8334;
+    background-color: #6b6761;
     border: none;
     color: white;
 }
 .info .button:hover{
     background-color: white;
-    border:1px solid #bd8334;
-    color: #bd8334;
+    border:1px solid #797671;
+    color: #77736d;
 }
 
 

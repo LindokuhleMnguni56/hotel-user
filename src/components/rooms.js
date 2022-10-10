@@ -43,9 +43,6 @@ function Booking(){
     getItems();
     },[])
 
-
-
-
     return(
         <div className="booking">
             <Top/>
@@ -53,18 +50,18 @@ function Booking(){
             <div className="booking">
                     
                     <div className="book">
-                            <h1>Make Memories</h1>
-                            <p>Discover the place where you have fun & enjoy a lot</p>
+                            <h1>Sleep comfortably</h1>
+                            <h2>At an affordable price</h2>
 
                             <div className="content grid">
                                 <div className="box">
-                                    <span>ARRIVAL DATE </span> <br/>
-                                    <input type="date" placeholder="29/20/2021" className="input"/>
+                                    <span>CHECK-IN  </span> <br/>
+                                    <input type="date" placeholder="28/05/2022" className="input"/>
                                 </div>
 
                                 <div className="box">
-                                    <span>DEPARTURE DATE </span> <br/>
-                                    <input type="date" placeholder="29/20/2021" className="input"/>
+                                    <span>CHECK-OUT  </span> <br/>
+                                    <input type="date" placeholder="29/05/2022" className="input"/>
                                 </div>
 
                                 <div className="box">
@@ -93,7 +90,7 @@ function Booking(){
                 </div>
             </div>
             <div className="room-block">
-                <h2 className="the-rooms">Price Range</h2>
+                {/* <h2 className="the-rooms"> Range</h2> */}
 
                 {items.map(item=> 
                     
@@ -106,8 +103,7 @@ function Booking(){
                                 
                             </div>
                             <p>ex ea commodo consequat. Duis aute irure 
-                                dolor in reprehenderit in voluptate velit esse cillum 
-                                dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                                dolor in replla pariatur. Excepteur sint occaecat 
                                 cupidatat non proident,</p>
                             <div className="buttons">
                                 <button>view</button>

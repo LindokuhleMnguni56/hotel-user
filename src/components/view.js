@@ -1,6 +1,6 @@
 import React from "react";
 import Top from "./top";
-// import "../css/home.css"
+ import "../css/home.css"
 import { Slide } from "react-slideshow-image";
  import "react-slideshow-image/dist/styles.css";
  import resturant from "../assets/resturant.png";

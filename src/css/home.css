@@ -44,11 +44,11 @@
     text-align: center;
 }
 .span{
-    color: #bd8334;
+    color: #ccc8c2;
 }
 .title {
     font-size: 3rem;
-    text-shadow: 2px 2px 4px #bd8334;
+    text-shadow: 2px 2px 4px #cecbc7;
 }
 .hotel-info .content{
     display: flex;
@@ -58,7 +58,7 @@
     padding: 3%;
     padding-right: 10%;
     text-align: left;
-
+    /* hero containe slide-container" */
 }
 .hotel-info .left p{
     font-size: 1.2rem;
@@ -71,30 +71,21 @@
 .hotel-info .right .image{
     width: 500px;
     height: 400px;
-    box-shadow: 10px 10px #bd8334,10px 10px 8px #faf3fa
+    box-shadow: 20px 10px #e7e6e4,15px 12px 10px #faf3fa
 }
 
-
-/* offering */
-.offering{
-    text-align: center;
-  
-}
 .offers{
-    
     display: flex;
     flex-wrap: wrap;
     padding: 30px;
     justify-content: space-around;
 }
+
 .offer{
-  
     padding: 30px;
     border-radius: 20px 0;
     width: 350px;
-    box-shadow: 5px 5px 5px #bd8334;
-    
-    
+    box-shadow: 5px 5px 5px #080808; 
 }
 .offer:hover{
     background-image:url("../assets/rest.jpg");
@@ -143,14 +134,14 @@
 .room button{
     padding: 10px;
     width:100px;
-    background-color: #bd8334;
+    background-color: grey;
     border: none;
     color:#faf3fa
 }
 .room button:hover{
     background-color: #faf3fa;
-    border: 1px solid#bd8334;
-    color:#bd8334
+    border: 1px solid#918e8b;
+    color:#83817d
 }
 .room span{
     padding: 10px;
