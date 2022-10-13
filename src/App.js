@@ -14,19 +14,14 @@ function App() {
   return (
     <Router>
         <Routes>
-
           <Route path = "/"  index element={<Login/>} />
           <Route path = "/sign-up" element={<Register/>}/>
           <Route path = "/Home" element={<Home/>}/> 
           <Route path= "/view" element={<View/>}/>
           <Route path= "/rooms" element={<Booking/>}/>
           <Route path="/book" element={<Book/>}/>
-          
-
         </Routes>
-
     </Router>
   );
 }
-
 export default App;

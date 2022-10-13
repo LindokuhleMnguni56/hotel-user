@@ -31,27 +31,14 @@ function Home(){
     return(
         <div className="main">
            <Top/>
-            <div className="home">
-                <div className="hero containe slide-container">
-
+            {/* <div className="home">
                 
-                    {/* <Zoom {...zoomOutProperties}>
-                        {images.map((each, index) => (
-                        <img key={index} style={{ width: "100%" ,height:"60vh",padding:"0"}} src={each} />
-                        ))}
-        
-                    // {/* <div className="text">
-                    //     <h1>Sleep like <span></span></h1>
-                    //     <h1>The Queen or King<span></span></h1>
-                    //     <h1>You are<span></span></h1>
-                        
-                    // </div> */} 
-                </div>
-            </div>
+            </div> */}
 
             <div className="hotel-info">
-                <h1 className="title">Welcome to <span className="span">Winnie M</span> Hotel</h1>
+                <h1 className="title">Welcome to <span className="span">Tembisa</span> Hotel</h1>
                 <div className="content">
+                <h1 className="title">Welcome to <span className="span">Tembisa</span> Hotel</h1>
                     <div className="left">
                         <p><button>view</button>ex ea commodo consequat. Duis aute irure 
                             dolor in reprehenderit in voluptate velit esse cillum 
