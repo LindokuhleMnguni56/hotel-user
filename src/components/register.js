@@ -36,22 +36,22 @@ function Register(){
     return(
         <div className="login">
             <div className="form">
-                <h1>You are most Welcome</h1>
-                <span>Are you dreaming of a place to stay?<br></br> We are here</span>
+                <h1>Welcome</h1>
+                <span>Are you looking for a place to sleep? comfortably?<br/> Look no further</span>
                 <div className="control">
-                    <label htmlFor="username">Username</label><br></br>
-                    <input type="text" placeholder="Hammy" onChange={(e)=>setName(e.target.value)}/>
+                    <label htmlFor="username"></label><br></br>
+                    <input type="text" placeholder="Enter your name" onChange={(e)=>setName(e.target.value)}/>
                 </div>
                 <div className="control">
-                    <label htmlFor="Email-Address">Enter Email-Address</label><br></br>
-                    <input type="email" placeholder="example@eg.com" onChange={(e)=>setEmail(e.target.value)}/>
+                    <label htmlFor="Email-Address"></label>
+                    <input type="email" placeholder="Enter email address" onChange={(e)=>setEmail(e.target.value)}/>
                 </div>
                 <div className="control">
-                    <label htmlFor="password">Enter Password</label><br></br>
-                    <input type="password" placeholder="*********" onChange={(e)=>setPassword(e.target.value)}/>
+                    <label htmlFor="password"></label>
+                    <input type="password" placeholder="Enter password" onChange={(e)=>setPassword(e.target.value)}/>
                 </div>
                 
-                <button onClick={register}>Login</button><br></br>
+                <button onClick={register}>Register</button><br></br>
                 <span>Already have an account?<Link to='../'>click here</Link> </span>
             </div>
         </div>
